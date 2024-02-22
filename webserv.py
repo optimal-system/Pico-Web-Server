@@ -44,20 +44,7 @@ def find_wifi():
                 found_wifi_networks[ssid] = rssi
     wifi_networks = sorted(found_wifi_networks.items(), key = lambda x:x[1], reverse = True)
     #print("DEBUG find_wifi : List of Wifi networks:",wifi_networks )
-    return wifi_networks 
-
-
-# def connect_wifi() :
-#     config = get.get_config()
-#     try_wifi = 1            
-#     while (try_wifi < WIFI_MAX_ATTEMPTS):
-#         #print("DEBUG main : try_wifi :",try_wifi,WIFI_MAX_ATTEMPTS)
-#         IP_ADDRESS = connect_to_wifi(config["ssid"], config["password"])
-#         if is_connected_to_wifi():
-#             print(f"Connected to wifi, IP address {IP_ADDRESS}")
-#             break
-#         else:
-#             try_wifi += 1              
+    return wifi_networks           
 
 def connect_wifi() :
     config = get.get_config()
