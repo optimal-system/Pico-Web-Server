@@ -6,7 +6,7 @@ Web server for Raspberry Pico in MicroPython
 Based on library PHEW : https://github.com/pimoroni/phew  
 and also modules by Simon Prickett :  
 - https://github.com/simonprickett/phewap  
-- https://github.com/simonprickett/iss-tracker  
+- https://github.com/simonprickett/iss-tracker   
 and also Library for working with CSV filesby  Alec Delaney
   
 There are 2 classes in this module that can be used by a main program to:  
