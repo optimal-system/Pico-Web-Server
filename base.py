@@ -8,15 +8,11 @@ __version__ = 1.240222
 import time, json
 from machine import Pin, ADC
 import csv
-# module de configuration pour HOROLAJ
 import configuration as C
 
 LOGFILE = C.LOGFILE
 CSV1 = C.CHOICES
 CSV2 = C.OTHERDATA
-
-print(LOGFILE)
-
 
 ######### MATH ###########
 
