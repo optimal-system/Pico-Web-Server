@@ -10,7 +10,9 @@ and also modules by Simon Prickett :
 - https://github.com/simonprickett/phewap  
 - https://github.com/simonprickett/iss-tracker   
 
-and also Library for working with CSV files by Alec Delaney
+and also a Library for working with CSV files by Alec Delaney.
+ported from CircuitPython to MicroPython (small changes) by OM
+- https://pydigger.com/pypi/circuitpython-csv
   
 There are 2 classes in this module that can be used by a main program to:  
 - embark in a Raspberry Pico 
