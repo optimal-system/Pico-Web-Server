@@ -24,4 +24,4 @@ There are 2 classes in this module that can be used by a main program to:
 - read data files in csv to select the config  
 - keep all the text of the index.html in a data file for easy maintenance and translation  
 
-All html files should be in a subdirectory called 'templates'. How do you do it in Github ? 
+
