@@ -18,7 +18,7 @@ There are 2 classes in this module that can be used by a main program to:
 - embark in a Raspberry Pico 
 - provide first connection to set wifi  
 - provide following connections to change settings (the password for example)  
-- turn on and _off_ the wifi on demand (to save power)  
+- turn on and _off_ the wifi on demand to save power (off is not included in Phew)  
 - set the Real Time Clock on Pico  
 - read and write the config file (ssid, pwd, app data) in json  
 - read data files in csv to select the config  
