@@ -56,13 +56,13 @@ class get_data :
     def get_config(self):
         return B.read_json(CONFIGFILE)
 
-    def get_ports(self):
-        ports = B.read_csv(PORTSFILE)
-        allports={}
-        for i in range (len(ports)):
-            allports[ports[i][0]]=ports[i][0]
-            allports[ports[i][0]]=(int(ports[i][1]),int(ports[i][2]))
-        return allports
+    def get_choices(self):
+        choice = B.read_csv(CHOICES)
+        allchoices={}
+        for i in range (len(choice)):
+            allchoices[choice[i][0]]=choice[i][0]
+            allchoices[choice[i][0]]=(int(choice[i][1]),int(choice[i][2]))
+        return allchoices
                     
     def loop(self):
         """Verification  
@@ -72,10 +72,10 @@ class get_data :
         print(config)
         print(type(config))
         
-        allports=self.get_ports()
-        print("=====\n",PORTSFILE)
-        print(allports)
-        print(type(allports))
+        allchoices=self.get_choices()
+        print("=====\n",CHOICES)
+        print(allchoices)
+        print(type(allchoices))
 
 ######################
 
